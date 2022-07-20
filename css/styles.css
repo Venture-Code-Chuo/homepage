@@ -429,3 +429,8 @@ footer {
   }
 }
 
+.footer_p{
+  background-color: #f59a00;
+  border-top: none;
+  padding-top: 3px;
+}
