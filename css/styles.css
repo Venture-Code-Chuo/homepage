@@ -140,6 +140,7 @@ header img {
 }
 .name {
   margin-right: 30px;
+  text-align: center;
 }
 .name > .title2 {
   text-decoration: 3px underline;
