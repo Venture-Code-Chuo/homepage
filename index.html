@@ -4,10 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>VentureCode</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="vicon.ico">
   <meta name="description" content="中央大学プログラミングサークルVentureCodeのホームページです">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -19,10 +20,10 @@
     
     <div class="pc-menu">
         <ul>
-          <li class="top1"><a href="index.html">ホーム</a></li>
-          <li class="top2"><a href="members.html">メンバー紹介</a></li> 
+          <li class="top1"><a href="index.html" class="text-decoration-none">ホーム</a></li>
+          <li class="top2"><a href="active.html" class="text-decoration-none">活動内容</a></li> 
           <li class="top1"><a href="https://www.instagram.com/v.code_chuo/" target="_blamk">
-          <img src="Logo/Instagram32.png" alt="VentureCodeのInstagramです" id="insta"></a></li>
+          <img src="Logo/Instagram.png" alt="VentureCodeのInstagramです" id="insta"></a></li>
           <li class="top1">
             <form>
             <a href="https://forms.gle/sNd45zRK3Rk3CGuX7" target="_blmk"><img src="Logo/mail logo.png" id="insta" alt="応募フォームです"></a>
@@ -33,11 +34,11 @@
       <span class="material-icons" id="close">close</span>
       <nav>
         <ul>
-          <li><a href="index.html">ホーム</a></li>
-          <li><a href="members.html">メンバー紹介</a></li> 
+          <li><a href="index.html" class="text-decoration-none">ホーム</a></li>
+          <li><a href="active.html" class="text-decoration-none">活動内容</a></li> 
           <li>
             <a href="https://www.instagram.com/v.code_chuo/" target="_blamk">
-            <img src="Logo/Instagram32.png" alt="VentureCodeのInstagramです" id="insta"></a>
+            <img src="Logo/Instagram.png" alt="VentureCodeのInstagramです" id="insta"></a>
           </li>
           <li><a href="https://forms.gle/sNd45zRK3Rk3CGuX7" target="_blmk"> <img src="Logo/mail logo.png" id="insta" alt="応募フォームです"></a></li>
         </ul>
@@ -45,8 +46,6 @@
     </div>
   
   </header>
-  
-  <script src="js/header.js"></script>
 
   <section>
     <div class="video1" id="video2">
@@ -59,8 +58,8 @@
         <style>
           .catch {
             background-image: url("Logo/vcode3.jpg");
-                background-repeat:no-repeat;
-                background-size:cover;
+            background-repeat:no-repeat;
+            background-size:cover;
             opacity: 0.8;
           } 
           </style>
@@ -79,14 +78,7 @@
       </div>
     </section>
   </main>
-  
-  
 
-
-  <section class="info">
-    
-  </section>
-  
   <section class="active sa">
     
     <h1>活動内容 <span class="material-icons" id="laptop">
@@ -134,45 +126,22 @@
       </div>  
     </div>  
     
-  
-  <script>
-    let scrollElem = document.querySelectorAll('.sa');
-    let scrollAnimation = function() {
-      for(let i = 0; i < scrollElem.length; i++) {
-        let trigger = 300;
-        if (window.innerHeight > scrollElem[i].getBoundingClientRect().top + trigger) {
-          scrollElem[i].classList.add('in');
-        }
-      }
-    }
-    window.addEventListener('load', scrollAnimation);
-    window.addEventListener('scroll', scrollAnimation);
-    </script>
   <section >
     <div class="apply">
-      <!-- <style>
-        .apply {
-          background-image: url("Logo/applyimg.jpg");
-               background-repeat:no-repeat;
-               background-size:cover;
-        } 
-        
-        </style> -->
-      <h2>入会フォームはこちら<br>↓　↓　↓</h2>
+
+      <h2>入会・見学希望者はインスタのDMまで<br>↓  ↓  ↓</h2>
       <form action="" method="post">
-        <a href="https://forms.gle/sNd45zRK3Rk3CGuX7" target="_blamk" class="btn">フォームを送る</a>
+        <a href="https://www.instagram.com/v.code_chuo/" target="_blamk" class="btn">DMを送る</a>
         <img src="Logo/smartphone.png">
         <!-- <button class="button">入会フォームはこちら</button> -->
       </form>
     </div>
-  <div>こんにちは</div>
   </section>
 
-  
-
-  <p class="return"><a href="#top">先頭へ戻る</a></p>
   <footer>
     <p>©2020 VentureCode. All Rights Reserved.</p>
   </footer>
+  <script src="js/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
