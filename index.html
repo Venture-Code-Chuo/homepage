@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VentureCode</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="vicon.ico">
+  <meta name="description" content="中央大学プログラミングサークルVentureCodeのホームページです">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo"><img src="Logo/Original on Transparent.png">
+    </div>
+    <div class="sp-menu">
+      <span class="material-icons" id="open">menu</span>
+    </div>
+    
+    <div class="pc-menu">
+        <ul>
+          <li class="top1"><a href="index.html">ホーム</a></li>
+          <li class="top2"><a href="members.html">メンバー紹介</a></li> 
+          <li class="top1"><a href="https://www.instagram.com/v.code_chuo/" target="_blamk">
+          <img src="Logo/Instagram32.png" alt="VentureCodeのInstagramです" id="insta"></a></li>
+          <li class="top1">
+            <form>
+            <a href="https://forms.gle/sNd45zRK3Rk3CGuX7" target="_blmk"><img src="Logo/mail logo.png" id="insta" alt="応募フォームです"></a>
+          </li>
+        </ul>
+    </div>
+    <div class="overlay">
+      <span class="material-icons" id="close">close</span>
+      <nav>
+        <ul>
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="members.html">メンバー紹介</a></li> 
+          <li>
+            <a href="https://www.instagram.com/v.code_chuo/" target="_blamk">
+            <img src="Logo/Instagram32.png" alt="VentureCodeのInstagramです" id="insta"></a>
+          </li>
+          <li><a href="https://forms.gle/sNd45zRK3Rk3CGuX7" target="_blmk"> <img src="Logo/mail logo.png" id="insta" alt="応募フォームです"></a></li>
+        </ul>
+      </nav>
+    </div>
+  
+  </header>
+  
+  <script src="js/header.js"></script>
+
+  <section>
+    <div class="video1" id="video2">
+      <video src="video/vcwork3.mp4" autoplay muted playsinline></video>
+    </div>
+  </section>
+  <main>
+    <section>
+      <div class="catch mast">
+        <style>
+          .catch {
+            background-image: url("Logo/vcode3.jpg");
+                background-repeat:no-repeat;
+                background-size:cover;
+            opacity: 0.8;
+          } 
+          </style>
+        <div class="catch1">
+          <h1 class="mast_title js-spanize">２０２０年秋始動</h1>
+          <h1 class="mast_title1 js-spanize">文系のためのプログラミングサークル</h1>
+        </div>
+        <div class="mast_title1">
+          <h2>文系大学生プログラミングで価値ある自分に</h2>
+          <p>初心者だからお互いに教えあい、競い合う</p>
+          <p>休みの日はみんなで遊び交流の輪を広げる</p>
+          <p>チームで１つのプログラミングを完成させる</p>
+          <p>楽しく学び、自分を高める</p>
+          <p>一生の友達に出会う</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  
+
+
+  <section class="info">
+    
+  </section>
+  
+  <section class="active sa">
+    
+    <h1>活動内容 <span class="material-icons" id="laptop">
+      laptop_windows
+      </span></h1>
+    <div class="active0">
+      <div class="active1">
+        <img src="Logo/active.jpg">
+      </div>
+      <div class="active2">
+        <ul>
+          <li>ラウンジやカフェでの勉強会</li>
+          <li>初心者講座</li>
+          <li>開発したシステムの発表会</li>
+          <li>チームでの開発（LINEの自動返信ボットなど）</li>
+          <li>仲間同士の交流会(BBQ企画など)</li>
+          <li>作りたいものをチームで自由に作り上げる</li>
+        </ul>
+       
+      </div>  
+     
+    </div>
+    
+  </section>
+
+  
+  <section class="reco sa">
+    <h1 class="scroll-animation fadein">こんな人におすすめ <span class="material-icons" id="thumb">
+      thumb_up
+      </span></h1>
+    <div class="reco0">
+      <div>
+        
+        <ul>
+          <li>自分の強みが欲しい</li>
+          <li>せっかく大学に入ったから成果を残したい</li>
+          <li>いい仲間に出会いたい</li>
+          <li>大学生活を充実させたい</li>
+          <li>プログラミングを身に着けて将来に活かしたい</li>
+          <li>プログラミングを始めたいけど何をしたらいいかわからない</li>
+        </ul>
+      </div>
+      <div>
+        <img src="Logo/reco.jpg">
+      </div>  
+    </div>  
+    
+  
+  <script>
+    let scrollElem = document.querySelectorAll('.sa');
+    let scrollAnimation = function() {
+      for(let i = 0; i < scrollElem.length; i++) {
+        let trigger = 300;
+        if (window.innerHeight > scrollElem[i].getBoundingClientRect().top + trigger) {
+          scrollElem[i].classList.add('in');
+        }
+      }
+    }
+    window.addEventListener('load', scrollAnimation);
+    window.addEventListener('scroll', scrollAnimation);
+    </script>
+  <section >
+    <div class="apply">
+      <!-- <style>
+        .apply {
+          background-image: url("Logo/applyimg.jpg");
+               background-repeat:no-repeat;
+               background-size:cover;
+        } 
+        
+        </style> -->
+      <h2>入会フォームはこちら<br>↓　↓　↓</h2>
+      <form action="" method="post">
+        <a href="https://forms.gle/sNd45zRK3Rk3CGuX7" target="_blamk" class="btn">フォームを送る</a>
+        <img src="Logo/smartphone.png">
+        <!-- <button class="button">入会フォームはこちら</button> -->
+      </form>
+    </div>
+    
+  </section>
+
+  
+
+  <p class="return"><a href="#top">先頭へ戻る</a></p>
+  <footer>
+    <p>©2020 VentureCode. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
