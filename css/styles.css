@@ -65,10 +65,6 @@ header img {
   transform: none;
 }
 
-.title2{
-  line-height: 60px;
-}
-
 .overlay.show li:nth-child(1) {
   transition-delay: .1s;
 }
@@ -96,43 +92,6 @@ header img {
   width: 32px;
 }
 
-
-/* .pic {
-  margin-right: 60px;
-} */
-#member {
-  margin-top: 60px;
-}
-#member > h1 {
-  
-  margin-bottom: 60px;
-  text-align: center;
-}
-.haruki, .shotaro, .hackathon {
-  margin-bottom: 60px;
-  margin-left: 30px;
-  padding-bottom: 64px;
-  text-align: center;
-}
-
-.haruki img, .shotaro img, .hackathon img {
-  border-radius: 10px;
-}
-.haruki, .shotaro {
-  border-bottom: 3px solid #eee;
-}
-.coments {
-  text-align: start;
-}
-
-.name2 {
-  margin: 0;
-}
-
-.pic {
-  margin-right: 60px;
-}
-
 .info, .reco {
   margin-bottom: 60px;
 }
@@ -140,16 +99,8 @@ header img {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.name {
-  margin-right: 30px;
-  text-align: center;
-}
-.name > .title2 {
-  text-decoration: 3px underline;
-}
-.name2 {
-  border-bottom: 3px solid orange;
-}
+
+
 section > video {
   margin-top: 60px;
 }
