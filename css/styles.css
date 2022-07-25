@@ -65,7 +65,9 @@ header img {
   transform: none;
 }
 
-
+.title2{
+  line-height: 60px;
+}
 
 .overlay.show li:nth-child(1) {
   transition-delay: .1s;
@@ -106,17 +108,17 @@ header img {
   margin-bottom: 60px;
   text-align: center;
 }
-.haruki, .shotaro {
+.haruki, .shotaro, .hackathon {
   margin-bottom: 60px;
   margin-left: 30px;
   padding-bottom: 64px;
   text-align: center;
 }
 
-.haruki img, .shotaro img {
+.haruki img, .shotaro img, .hackathon img {
   border-radius: 10px;
 }
-.haruki {
+.haruki, .shotaro {
   border-bottom: 3px solid #eee;
 }
 .coments {
