@@ -105,18 +105,18 @@ h1 {
   text-align: center;
 }
 
-.act, .actbottom {
+.act{
   margin-bottom: 60px;
   margin-left: 30px;
   padding-bottom: 64px;
   text-align: center;
 }
 
-.act img, .actbottom img {
+.act img{
   border-radius: 7px;
 }
 
-.act {
+.act{
   border-bottom: 3px solid #eee;
 }
 
