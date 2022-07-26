@@ -158,7 +158,10 @@ body {
 .active, .reco {
   margin-bottom: 0;
   padding-bottom: 30px;
+}
 
+.active .sa{
+  border-bottom: 20px;
 }
 
 .active img, .reco img {
@@ -166,7 +169,7 @@ body {
   margin: 0 auto;
   border-radius: 4px;
 }
-.active > h1, .reco  h1 {
+.active > h1, .reco > h1 {
   text-align: center;
   padding: 64px 0;
   
@@ -225,9 +228,8 @@ footer {
   text-align: center;
 }
 .catch {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding: 10px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   
   -webkit-text-stroke-width: 0.3px;
   -webkit-text-stroke-color: black;
@@ -312,9 +314,6 @@ footer {
   .active li {
     line-height: 2;
     font-size: 20px;
-  }
-  .active h1 {
-    font-size: 28px;
   }
   .reco0 {
     display: grid;
