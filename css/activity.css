@@ -11,14 +11,17 @@ header {
 header .logo {
   margin-top: 10px;
 }
+
 header img {
   width: 150px;
 }
+
 .sp-menu {
   margin-left: auto;
   padding-right: 10px;
   padding-top: 10px;
 }
+
 .sp-menu #open {
   font-size: 32px;
   cursor: pointer;
@@ -112,10 +115,6 @@ h1 {
   text-align: center;
 }
 
-.act img{
-  border-radius: 7px;
-}
-
 .act{
   border-bottom: 3px solid #eee;
 }
@@ -125,7 +124,7 @@ h1 {
 }
 
 .name {
-  margin-right: 30px;
+  margin-right: 50px;
   text-align: center;
 }
 
